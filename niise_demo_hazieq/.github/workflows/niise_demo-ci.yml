@@ -17,7 +17,6 @@ jobs:
             GITHUB_ACTIONS_RUNNER_TLS_NO_VERIFY: "1"
             NODE_TLS_REJECT_UNAUTHORIZED: "0"
         run: |
-        run: |
           cd /d "C:\Spring Boot Hazieq\niise_demo_hazieq\src\main\java\my\gov\imi\niise_demo_hazieq"
           if not exist .git (
               git init
